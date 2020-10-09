@@ -28,15 +28,18 @@
   <!-- Template Main CSS File -->
   <link href="assets/css/style.css" rel="stylesheet">
 
-<!-- Global site tag (gtag.js) - Google Analytics -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=UA-149929011-3"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-149929011-3"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
 
-  gtag('config', 'UA-149929011-3');
-</script>
+    function gtag() {
+      dataLayer.push(arguments);
+    }
+    gtag('js', new Date());
+
+    gtag('config', 'UA-149929011-3');
+  </script>
 </head>
 
 <body>
@@ -243,7 +246,15 @@
                   <p><em>Ericsson Internal Trainer for Machine Learning and Python Competence development. Trained
                       more than 50 Colleagues and enabled them to apply machine learning to Telecom and IT
                       industry.</em></p>
-                </li>
+                      <p>
+                        Python Materials Available <a href="">Link</a>
+                      </p>
+
+                      <p>
+                        Machine Learning Materials Available <a href="">Link</a>
+                      </p>
+
+                    </li>
               </ul>
             </div>
 
@@ -252,13 +263,17 @@
             <div class="resume-item">
               <ul>
                 <li>
-                  <p><em>Ericsson Impact AWARD - 2018 from Head of BA Managed Services : Mar. 2019 <a
-                        href="https://drive.google.com/file/d/1_V-HHN8rnXxtZ-QWcU_LUnFmuIbdMb5x/view?usp=sharing">Email</a>
+                  <p><em>Ericsson Impact AWARD - 2018 from Head of BA Managed Services - Mar.2019 <a
+                        href="https://drive.google.com/file/d/15WnSVmYKx7Dy5T5rWocXZttAtJ50VhFf/view?usp=sharing">Email</a>
                     </em></p>
                 </li>
                 <li>
-                  <p><em>1 out 15 Top performers for 2018-2019 in BMAS SA MS IT & ADM Unit. Feb.2019</em></p>
+                  <p><em>1 out 15 Top performers for 2018-2019 in BMAS SA MS IT & ADM Unit - Feb.2019</em></p>
                 </li>
+                <li>
+                  <p><em>2018 Q3: Power Award for Extensive Contribution towards automation initiatives in BMAS SA MS IT & ADM Unit = Sept.2018</em></p>
+                </li>
+
                 <li>
                   <p><em>One of the 15 Selected Outreach Participant to attend Computational Science Symposium
                       (CSS-2017) at <strong>Indian Institute of Science, Bangalore</strong></em></p>
@@ -311,12 +326,24 @@
                 and Communications. SSCC 2016. Communications in Computer and Information Science, vol 625. Springer,
                 Singapore. <a href="https://link.springer.com/chapter/10.1007/978-981-10-2738-3_23">Link</a>
               </p>
-
-
             </div>
+
+              
+
+            <div class="resume-item">
+              <h5>A Novel Clustered Support Vector Machine with Reduced Support Vectors for Big Data Classification</h5>
+              <p><em>GokkulNath T.S., Ramanathan R</em></p>
+              <p> Reduction in number of Support Vector is essential because it reduces the computation complexity of the
+                model, which in turn gives the user the ability to implement real time applications on low power computing
+                devices and reduces hardware requirement.<a href="https://doi.org/10.36227/techrxiv.12895025.v1">Pre-Print</a>
+              </p>
+            </div>
+
+
           </div>
           <em data-aos="fade-up">* Indicates GPA Calculated based only on Core Subjects. Pdf Version Available @ <a
-              href="https://drive.google.com/file/d/1T4_lSaJUt5b4xpiuOaj7-u4gigx9yE8q/view?usp=sharing">Link</a>. Last Updated on 12-08-2020. </em>
+              href="https://drive.google.com/file/d/1iV4duI0lgI0tU-12d5JN4OziEPVpdYAf/view?usp=sharing">Link</a>. Last
+            Updated on 12-08-2020. </em>
 
         </div>
     </section><!-- End Resume Section -->
@@ -334,16 +361,16 @@
           <div class="col-lg-12 d-flex justify-content-center">
             <ul id="portfolio-flters">
               <li data-filter="*" class="filter-active">All</li>
-              <li data-filter=".filter-app">AML</li>
-              <li data-filter=".filter-card">CV</li>
-              <li data-filter=".filter-web">ML</li>
+              <li data-filter=".filter-aml">AML</li>
+              <li data-filter=".filter-cv">CV</li>
+              <li data-filter=".filter-ml">ML</li>
             </ul>
           </div>
         </div>
 
         <div class="row portfolio-container" data-aos="fade-up" data-aos-delay="100">
 
-          <div class="col-lg-4 col-md-6 portfolio-item filter-app">
+          <div class="col-lg-4 col-md-6 portfolio-item filter-aml">
             <div class="portfolio-wrap">
               <img src="assets/img/portfolio/portfolio-1.jpg" class="img-fluid" alt="">
               <div class="portfolio-links">
@@ -353,6 +380,30 @@
               </div>
             </div>
           </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-cv">
+            <div class="portfolio-wrap">
+              <img src="assets/img/portfolio/FaceCycleGAN_banner.jpg" class="img-fluid" alt="">
+              <div class="portfolio-links">
+                <a href="assets/img/portfolio/FaceCycleGAN_banner.jpg" data-gall="portfolioGallery" class="venobox"
+                  title="Face Aging Using Cycle GAN"><i class="bx bx-plus"></i></a>
+                <a href="https://github.com/Gokkulnath/FaceAgingGAN" title="More Details"><i class="bx bx-link"></i></a>
+              </div>
+            </div>
+          </div>
+
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-ml">
+            <div class="portfolio-wrap">
+              <img src="assets/img/portfolio/clusteredsvm.jpg" class="img-fluid" alt="">
+              <div class="portfolio-links">
+                <a href="assets/img/portfolio/clusteredsvm.jpg" data-gall="portfolioGallery" class="venobox"
+                  title="A Novel Clustered SVM with Reduced Support Vectors"><i class="bx bx-plus"></i></a>
+                <a href="https://github.com/Gokkulnath/SVM-Experiments" title="More Details"><i class="bx bx-link"></i></a>
+              </div>
+            </div>
+          </div>
+
 
           <!-- <div class="col-lg-4 col-md-6 portfolio-item filter-web">
             <div class="portfolio-wrap">
